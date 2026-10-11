@@ -1,81 +1,85 @@
-### Hey there, I'm Kushik S K 👋
+# Kushik S K
 
-**Artificial Intelligence Engineer & MSc in AI Candidate**  
-*Mysuru, India | Target: Dubai, UAE*  
-📧 `kushik8055@gmail.com` | 🌐 [Live Production Client Site](https://www.srisaihomeappliancesandfurnitures.in/)
-
----
-
-### 🧠 About My Work
-
-I am an Applied AI Engineer focusing on building production-ready intelligent systems that balance **algorithmic rigor**, **sub-millisecond latency**, and **real-world usability**. My core competencies span:
-
-- **Information Retrieval & Vector Search**: High-throughput semantic search and dual-encoder recommendation engines using FAISS and Sentence-Transformers.
-- **Edge Computer Vision**: Real-time object detection, spatial zone counting, directional tracking, and alerting pipelines using YOLOv8 and OpenCV.
-- **Multi-Modal LLM Engineering**: Local-first assistant architectures with Ollama (`llama3.2`), automated cloud fallbacks (Gemini), and low-latency voice loops.
-- **Production Web & Spatial Platforms**: Deploying client applications end-to-end with Next.js, React 19, Spring Boot, and GIS spatial analytics.
+**Applied AI Engineer & Systems Builder**  
+📍 Mysuru, Karnataka, India · 🎯 MSc in Artificial Intelligence Candidate (Dubai, UAE)  
+📫 `kushik8055@gmail.com` · 🌐 [Live Production Platform](https://www.srisaihomeappliancesandfurnitures.in/) · 💻 [GitHub @Kushik18](https://github.com/Kushik18)
 
 ---
 
-### 🚀 Featured Engineering Projects
+### Engineering Narrative
+
+I build applied AI and software systems that run reliably under real-world constraints—whether that's achieving sub-millisecond neural retrieval across dense vector spaces on CPU, deploying zero-latency computer vision pipelines on edge streams, or launching full-stack production platforms serving active commercial clients.
+
+My technical focus bridges mathematical foundations (vector algebra, cosine distance, deep learning inference) with practical systems engineering (multi-modal fallbacks, relational schema design, edge caching, and automated audit pipelines).
+
+---
+
+### Featured Systems & Architecture
 
 #### 1. [Neural Vector Search & Semantic Recommendation Engine](https://github.com/Kushik18/neural-vector-search-engine)
-* **Stack**: `Python`, `FAISS (IndexFlatIP)`, `Sentence-Transformers (all-MiniLM-L6-v2)`, `NumPy`, `Pandas`
-* **What it does**: A scalable multi-domain semantic retrieval and recommendation system across Jobs, Courses, and Products. 
-* **Key Results**:
-  * Evaluated across 3,800+ real-world catalog vectors with **0.006 ms to 0.378 ms** query latency.
-  * Verified 100% L2 unit-norm embedding normalization with exact cosine inner product scoring.
-  * Self-retrieval validation achieving **77.78% Top-1 accuracy** on product item queries.
+*An end-to-end multi-domain semantic retrieval platform across heterogeneous catalog data (Jobs, Courses, and Products).*
+* **Core Architecture**: Sentence-Transformers (`all-MiniLM-L6-v2`) generating 384-dimensional dense vectors indexed via FAISS `IndexFlatIP`.
+* **Empirical Benchmarks**: Tested across 3,800+ embeddings; achieved **0.006 ms to 0.378 ms** query latency on CPU.
+* **Algorithmic Rigor**: Enforces strict L2 unit-norm normalization for exact cosine inner-product calculations. Validated with self-retrieval sanity checks achieving **77.78% Top-1 accuracy** on cross-catalog item queries.
+* **Stack**: Python, FAISS, Sentence-Transformers, NumPy, Pandas.
 
-#### 2. [Real-Time YOLOv8 Vision & Zone Analytics Suite](https://github.com/Kushik18/YOLO)
-* **Stack**: `YOLOv8s`, `OpenCV`, `Python`, `Flask`, `Torch`
-* **What it does**: An industrial-grade surveillance and crowd monitoring system originally designed during my Summer Internship at **IVIS LABS**, subsequently engineered into a modular production suite.
-* **Key Features**:
-  * Real-time multi-class detection (people, cars, buses, trucks, bikes) across all 80 COCO classes.
-  * Virtual tripwire and polygon zone counting with direction-aware analytics.
-  * Multi-channel alert manager (visual overlays, audio signals, thresholds) with session recorder and a live Flask streaming dashboard.
+#### 2. [Real-Time YOLOv8 Vision & Spatial Analytics Suite](https://github.com/Kushik18/YOLO)
+*Industrial-grade edge computer vision pipeline for real-time detection, tracking, and spatial counting.*
+* **Origin**: Developed and deployed during my Summer Internship at **IVIS LABS**, then hardened into a production-ready suite.
+* **Capabilities**:
+  * Multi-class object detection across all 80 COCO categories with real-time bounding overlays.
+  * Direction-aware virtual tripwires and polygonal spatial zone counting for pedestrian and vehicular traffic.
+  * Multi-threaded Flask streaming dashboard with audio/visual threshold alerting.
+* **System Hardening**: Re-engineered telemetry logging to eliminate cross-platform Windows CP1252 encoding crashes under continuous high-frame-rate inference.
+* **Stack**: Ultralytics YOLOv8s, OpenCV, Python, Flask, PyTorch.
 
-#### 3. [JARVIS — Multi-Modal AI Desktop Assistant](https://github.com/Kushik18/jarvis-ai-assistant)
-* **Stack**: `PyQt5`, `Ollama (llama3.2)`, `Google Gemini Cloud`, `pyttsx3`, `SpeechRecognition`, `psutil`
-* **What it does**: A low-latency multi-modal assistant designed for hands-free desktop control and task orchestration.
-* **Architecture**:
-  * **Dual-Brain Engine**: Defaults to local Ollama inference for complete offline data privacy, with automated graceful fallback to Google Gemini Cloud when offline.
-  * Built-in system utilities, battery monitor, 22 desktop application shortcuts, and voice wake loop wrapped in a HUD interface.
-
-#### 4. [Payana — Full-Stack AI Travel & Spatial Platform](https://github.com/Kushik18/payana-travel-planner)
-* **Stack**: `React 19`, `Java 17`, `Spring Boot`, `Leaflet GIS`, `Recharts`, `Bootstrap`
-* **What it does**: An end-to-end itinerary intelligence platform generating multi-day travel itineraries based on user constraints, district GIS data, and budget optimization.
-* **Architecture**: Decoupled microservices architecture with a Java Spring Boot backend and modern React 19 UI with spatial route mapping.
-
-#### 5. [Sri Sai Home Appliances & Furnitures — Production Platform](https://github.com/Kushik18/Sri_Sai_Home_Appliances_-_Furnitures)
-* **Stack**: `Next.js`, `TypeScript`, `Tailwind CSS`, `Cloudinary`
+#### 3. [Sri Sai Home Appliances & Furnitures — Production Platform](https://github.com/Kushik18/Sri_Sai_Home_Appliances_-_Furnitures)
+*A commercial e-commerce web platform engineered and deployed for a real retail business in Mysuru.*
 * **Live Deployment**: 🔗 [www.srisaihomeappliancesandfurnitures.in](https://www.srisaihomeappliancesandfurnitures.in/)
-* **What it does**: A production commercial web platform built and deployed for a real retail business in Mysuru, featuring responsive catalogs, Cloudinary image optimization, dynamic category navigation, and modern UX.
+* **Architectural Decisions**:
+  * *The 3D vs Performance Trade-off*: Initial prototyping explored interactive 3D WebGL product viewers (Three.js). However, field profiling showed 85%+ of local shoppers browse via mobile devices on variable network connections. Deliberately prioritized a sub-second Next.js 16 + React 19 + Cloudinary CDN architecture to eliminate mobile shader lag, ensure instant page loads, and streamline WhatsApp lead funnels.
+  * *AI Product Ingestion*: Engineered a custom Groq LLM pipeline (`scripts/enrichProducts.ts`) that ingests raw physical showroom invoice and Tally data, filters non-product line items, and generates structured JSON specifications (wattage, dimensions, verified category).
+* **Stack**: Next.js 16, React 19, TypeScript, PostgreSQL, Prisma ORM, Cloudinary, Upstash Redis Rate Limiting, Tailwind CSS 4.
+
+#### 4. [JARVIS — Multi-Modal AI Desktop Assistant](https://github.com/Kushik18/jarvis-ai-assistant)
+*A privacy-first, low-latency multi-modal desktop assistant with voice control and local inference.*
+* **Dual-Brain Architecture**:
+  * Primary engine runs on local Ollama (`llama3.2`) for complete offline privacy and zero telemetry leakage.
+  * Gracefully transitions to Google Gemini Cloud when deep reasoning or external knowledge is requested.
+* **Capabilities**: Hands-free voice wake loop, system hardware telemetry (CPU, RAM, battery), 22 desktop application shortcuts, and PyQt5 HUD.
+* **Stack**: Python, PyQt5, Ollama, Google Gemini API, pyttsx3, SpeechRecognition, psutil.
+
+#### 5. [Payana — AI Travel & Spatial Itinerary Planner](https://github.com/Kushik18/payana-travel-planner)
+*A full-stack itinerary intelligence platform generating multi-day travel itineraries based on budget and spatial constraints.*
+* **Architecture**: Decoupled microservices architecture with a Java 17 Spring Boot backend, React 19 UI, and interactive Leaflet GIS route mapping across regional district points of interest.
+* **Stack**: Java 17, Spring Boot, React 19, Leaflet GIS, Recharts, Maven.
 
 ---
 
-### 🛠️ Technical Competencies
+### Technical Toolkit
 
-| Domain | Technologies & Frameworks |
+| Domain | Core Stack & Tools |
 |---|---|
-| **AI / Machine Learning** | PyTorch, Ultralytics YOLOv8, FAISS, Sentence-Transformers, Hugging Face, OpenCV, Scikit-Learn |
-| **LLMs & GenAI** | Ollama (Local LLMs), Google Gemini API, Prompt Design, Multi-Modal Systems, Speech Pipelines |
-| **Backend & Systems** | Python 3.13, Java 17, Spring Boot, Flask, REST APIs, Maven, Data Standardization |
-| **Frontend & GIS** | Next.js, React 19, TypeScript, JavaScript, Leaflet GIS, Tailwind CSS, Bootstrap |
-| **Engineering Practices** | Git / GitHub CLI, TDD & Automated Audit Pipelines, System Performance Profiling, Clean Architecture |
+| **Deep Learning & Vision** | PyTorch, Ultralytics YOLOv8, OpenCV, FAISS, Sentence-Transformers, Hugging Face, Scikit-Learn |
+| **LLMs & GenAI Engineering** | Ollama (Llama 3.2), Groq Cloud API, Google Gemini API, Prompt Orchestration, Speech Pipelines |
+| **Backend & Systems** | Python 3.13, Java 17 (Spring Boot), Next.js Server Components, Flask, Prisma ORM, PostgreSQL |
+| **Frontend & GIS** | React 19, Next.js 16, TypeScript, Tailwind CSS 4, Leaflet GIS, Shadcn UI |
+| **Infrastructure & Caching** | Upstash Redis (Distributed Rate Limiting), Cloudinary CDN, Git, GitHub CLI, Linux/Windows CLI |
 
 ---
 
-### 🎓 Academic & Professional Focus
-- **Target Degree**: MSc in Artificial Intelligence (Dubai, UAE)
-- **Research Interests**:
-  - Edge Deep Learning & Low-Power Computer Vision
-  - Scalable Neural Retrieval & Vector Index Optimization
-  - Hybrid On-Device & Cloud Multi-Agent Orchestration
+### Academic Focus & Direction
+
+- **Target Program**: MSc in Artificial Intelligence (Dubai, UAE)
+- **Current Research & Engineering Interests**:
+  - Edge Deep Learning and Low-Power Computer Vision
+  - Scalable Vector Retrieval and Approximate Nearest Neighbor (ANN) Index Optimization
+  - On-Device Small Language Models (SLMs) and Autonomous Multi-Agent Systems
 
 ---
 
-### 📬 Get in Touch
+### Contact
+
 - **Email**: [kushik8055@gmail.com](mailto:kushik8055@gmail.com)
 - **GitHub**: [github.com/Kushik18](https://github.com/Kushik18)
-- **Commercial Project**: [srisaihomeappliancesandfurnitures.in](https://www.srisaihomeappliancesandfurnitures.in/)
+- **Commercial Site**: [srisaihomeappliancesandfurnitures.in](https://www.srisaihomeappliancesandfurnitures.in/)
