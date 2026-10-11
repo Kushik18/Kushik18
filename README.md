@@ -1,16 +1,16 @@
 # Kushik S K
 
 **Applied AI Engineer & Systems Builder**  
-📍 Mysuru, Karnataka, India · 🎯 MSc in Artificial Intelligence Candidate (Dubai, UAE)  
+📍 Dubai, UAE & Mysuru, India · 🎓 MSc in Artificial Intelligence @ **Heriot-Watt University (Dubai Campus)**  
 📫 `kushik8055@gmail.com` · 🌐 [Live Production Platform](https://www.srisaihomeappliancesandfurnitures.in/) · 💻 [GitHub @Kushik18](https://github.com/Kushik18)
 
 ---
 
 ### Engineering Narrative
 
-I build applied AI and software systems that run reliably under real-world constraints—whether that's achieving sub-millisecond neural retrieval across dense vector spaces on CPU, deploying zero-latency computer vision pipelines on edge streams, or launching full-stack production platforms serving active commercial clients.
+I build applied AI and software systems that run reliably under real-world constraints—whether that's achieving sub-millisecond neural retrieval across dense vector spaces on CPU, deploying zero-latency computer vision pipelines on edge streams, orchestrating autonomous multi-agent workflows, or launching full-stack production platforms serving active commercial clients.
 
-My technical focus bridges mathematical foundations (vector algebra, cosine distance, deep learning inference) with practical systems engineering (multi-modal fallbacks, relational schema design, edge caching, and automated audit pipelines).
+Currently pursuing my **MSc in Artificial Intelligence at Heriot-Watt University, Dubai**, my technical focus bridges mathematical foundations (vector algebra, cosine distance, deep learning inference) with practical systems engineering (multi-agent coordination, local-first LLMs, spatial web experiences, and automated audit pipelines).
 
 ---
 
@@ -61,20 +61,17 @@ My technical focus bridges mathematical foundations (vector algebra, cosine dist
 | Domain | Core Stack & Tools |
 |---|---|
 | **Deep Learning & Vision** | PyTorch, Ultralytics YOLOv8, OpenCV, FAISS, Sentence-Transformers, Hugging Face, Scikit-Learn |
-| **LLMs & GenAI Engineering** | Ollama (Llama 3.2), Groq Cloud API, Google Gemini API, Prompt Orchestration, Speech Pipelines |
+| **Autonomous Agents & GenAI** | Autonomous Multi-Agent Workflows, Ollama (Llama 3.2), Groq Cloud API, Google Gemini API, Prompt Design |
 | **Backend & Systems** | Python 3.13, Java 17 (Spring Boot), Next.js Server Components, Flask, Prisma ORM, PostgreSQL |
-| **Frontend & GIS** | React 19, Next.js 16, TypeScript, Tailwind CSS 4, Leaflet GIS, Shadcn UI |
+| **Frontend, 3D & GIS** | React 19, Next.js 16, TypeScript, Three.js / WebGL, Tailwind CSS 4, Leaflet GIS, Shadcn UI |
 | **Infrastructure & Caching** | Upstash Redis (Distributed Rate Limiting), Cloudinary CDN, Git, GitHub CLI, Linux/Windows CLI |
 
 ---
 
-### Academic Focus & Direction
+### Academic Background
 
-- **Target Program**: MSc in Artificial Intelligence (Dubai, UAE)
-- **Current Research & Engineering Interests**:
-  - Edge Deep Learning and Low-Power Computer Vision
-  - Scalable Vector Retrieval and Approximate Nearest Neighbor (ANN) Index Optimization
-  - On-Device Small Language Models (SLMs) and Autonomous Multi-Agent Systems
+- **MSc in Artificial Intelligence** — **Heriot-Watt University** (Dubai Campus, UAE)
+- **B.E. in Artificial Intelligence and Machine Learning** — **University of Mysore** (School of Engineering), CGPA: 8.0 / 10.0
 
 ---
 
